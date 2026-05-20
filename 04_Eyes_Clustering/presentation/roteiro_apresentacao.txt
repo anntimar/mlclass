@@ -1,0 +1,21 @@
+Roteiro da apresentação (visão cliente)
+
+1. Contexto
+- Objetivo: identificar perfis de olhos a partir de medidas biométricas.
+- Variáveis usadas no clustering: AL, ACD, WTW, K1, K2.
+- A coluna 'Correto' não foi usada para formar os grupos.
+
+2. Etapas
+- Entendimento da base
+- Seleção das variáveis
+- Padronização
+- Teste de cenários com KMeans (2 a 5 clusters)
+- Escolha do melhor cenário por silhouette score
+- Descrição dos perfis encontrados
+- Complemento com frequência de 'Correto' por cluster
+
+3. Entregáveis
+- CSV com cluster de cada registro
+- Tabela de médias por cluster
+- Gráfico PCA dos grupos
+- Gráfico de perfil médio por cluster
