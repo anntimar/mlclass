@@ -1,0 +1,19 @@
+Roteiro inicial de apresentação
+
+1. Problema da atividade
+- Identificar perfis de mapas epiteliais.
+- Usar apenas C, S, ST, T, IT, I, IN, N, SN no clustering.
+
+2. Preparação dos dados
+- Seleção das 9 regiões epiteliais.
+- Padronização com StandardScaler.
+
+3. Teste de quantidade de clusters
+- Comparar 2, 3, 4, 5 e 6 clusters usando silhouette score.
+
+4. Escolha do melhor cenário
+- Justificar com silhouette + interpretação dos perfis.
+
+5. Perfil dos grupos
+- Descrever médias por cluster.
+- Depois complementar com Age, Gender e Eye.
